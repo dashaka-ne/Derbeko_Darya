@@ -1,0 +1,40 @@
+.list {
+     height: 30px;
+  
+}
+
+div.list::before {
+    content: url('images/sheetIcon.jpg');
+}
+
+img.pic {
+    display: none;
+   
+}
+
+div.list:hover img.pic {
+    display: inline;
+    position: relative;
+    z-index: 1;
+    margin:0px ;
+    padding: 0px;
+}
+
+.border {
+    border: 2px solid #CDC0C5;
+    border-radius: 0px 25px 0px 25px;
+    padding: 5px;
+    height: 90px;
+}
+
+.blockText{
+    width: 700px;
+}
+.blockList{
+    width: 170px;
+}
+a:link,
+:visited {
+    color: rgb(65, 65, 201);
+    font-weight: 600;
+}
