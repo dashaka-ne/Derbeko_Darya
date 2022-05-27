@@ -1,0 +1,29 @@
+tr:nth-child(odd) {
+    background-color: rgb(226, 225, 225)
+}
+
+tr:nth-child(1) {
+    background-color: grey
+}
+
+tr:nth-child(1) {
+    background-color: grey
+}
+
+tr:nth-last-child(1) {
+    background-color: white;
+}
+
+tr:hover {
+    background-color: green;
+}
+
+td {
+    border-left: 2px dotted;
+    border-bottom: 2px dotted;
+}
+
+th.border {
+    border-bottom: 2px dotted;
+    text-align: left;
+}
