@@ -6,24 +6,19 @@ tr:nth-child(1) {
     background-color: grey
 }
 
-tr:nth-child(1) {
-    background-color: grey
-}
-
-tr:nth-last-child(1) {
-    background-color: white;
-}
-
 tr:hover {
     background-color: green;
 }
 
 td {
-    border-left: 2px dotted;
     border-bottom: 2px dotted;
 }
 
-th.border {
-    border-bottom: 2px dotted;
-    text-align: left;
+td:first-child {
+    font-weight: 900;
 }
+
+td:not(:nth-child(1)) {
+    border-left: 2px dotted;
+}
+
