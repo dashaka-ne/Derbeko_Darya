@@ -4,7 +4,7 @@
 }
 
 div.list::before {
-    content: url('images/sheetIcon.jpg');
+    content: url('../images/sheetIcon.jpg');
 }
 
 img.pic {
@@ -31,7 +31,7 @@ div.list:hover img.pic {
     width: 700px;
 }
 .blockList{
-    width: 170px;
+    width: 400px;
 }
 a:link,
 :visited {
