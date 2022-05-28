@@ -12,8 +12,9 @@
 
     .dropDownMenu {
         width: 150px;
-        display:none;
-     }
+        opacity: 0;
+        height: 1px;
+    }
 
     div.dropDownMenu>div {
         border: solid 1px;
@@ -25,11 +26,11 @@
     }
 
     div.menu>div:hover div.dropDownMenu {
-        display: block;
+        opacity: 1;
         position: absolute;
         left: 225px;
         top: 35px;
-        
+        transition: all .7s linear .15s;
     }
 
 }
@@ -47,7 +48,8 @@
 
     .dropDownMenu {
         width: 150px;
-        display:none;
+        opacity: 0;
+        height: 1px;
     }
 
     div.dropDownMenu>div {
@@ -60,10 +62,12 @@
     }
 
     div.menu>div:hover div.dropDownMenu {
-        display: block;
+        opacity: 1;
         position: absolute;
         left: 115px;
         top: 63px;
-        
+        transition: all .7s linear .15s;
+       
+
     }
 }
